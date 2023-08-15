@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.text {
+    -webkit-text-stroke: black .07rem;
+}
+
+.active {
+    color: black !important;
+    -webkit-text-stroke: black 0.02rem !important;
+}
+
+.res-active {
+    color: black;
+    background: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
