@@ -16,6 +16,7 @@ const Education = () => {
             <MdSchool size={30} className='mr-4 hidden lg:flex'/>
             <div className='my-4'>
                 <h5 className='font-bold md:text-2xl text-md'>Eskisehir Osmangazi University</h5>
+                <p className='text-md text-black opacity-70'>Math and Computer Science</p>
                 <p className='text-sm text-black opacity-40'>(2019 - 2023)</p>
             </div>
         </div>
