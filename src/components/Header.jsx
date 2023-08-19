@@ -21,7 +21,7 @@ function Header() {
       </div>
 
       {nav && (
-        <div className='flex lg:hidden flex-col justify-center items-center absolute top-0 right-0 w-[30%] h-screen bg-black'>
+        <div className='flex lg:hidden flex-col justify-center items-center absolute top-0 right-0 px-10 h-screen bg-black'>
           <Link className=' my-2 cursor-pointer mx-2 hover:underline underline-offset-[10px] font-bold text-2xl text-white text' activeClass='res-active' smooth={true} spy={true} offset={-200} to="home">Home</Link>
           <Link className=' my-2 cursor-pointer mx-2 hover:underline underline-offset-[10px] font-bold text-2xl text-white text' activeClass='res-active' smooth={true} spy={true} offset={-150} to="about">About</Link>
           <Link className=' my-2 cursor-pointer mx-2 hover:underline underline-offset-[10px] font-bold text-2xl text-white text' activeClass='res-active' smooth={true} spy={true} offset={-100} to="education">Education</Link>          
