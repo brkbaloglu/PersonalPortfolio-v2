@@ -30,7 +30,7 @@ function Home() {
         </div>
           <div >
             <ul className='flex items-center justify-center'>
-              <Link to="portfolio" smooth={true} spy={true} offset={-150} className='flex items-center justify-center border-2 border-black px-6 py-2 group hover:bg-black hover:text-white duration-200 cursor-pointer'><p>Portfolio</p><MdOutlineKeyboardArrowRight size={25} className='ml-1 group-hover:rotate-90 duration-100' /></Link>
+              <Link to="portfolio" smooth={true} spy={true} offset={-150} className='flex items-center justify-center border-2 border-black px-6 py-2 group hover:bg-black hover:text-white duration-200 cursor-pointer'><p>My Portfolio</p><MdOutlineKeyboardArrowRight size={25} className='ml-1 group-hover:rotate-90 duration-100' /></Link>
             </ul>
           </div>
         </div>
@@ -39,7 +39,7 @@ function Home() {
         </div>
         
       </div>
-      <div className='lg:flex items-center justify-center my-20 hidden '>
+      <div className='lg:flex items-center justify-center py-5 my-10 hidden '>
         <AiFillHtml5 size={40} className='mx-8 bg-white text-orange-500'/>
         <BiLogoCss3 size={40} className='mx-8 bg-white text-blue-500'/>
         <DiJavascript1 size={40} className='mx-8 text-yellow-300 '/>

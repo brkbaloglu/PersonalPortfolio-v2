@@ -19,7 +19,7 @@ function Portfolio() {
       <h3 className='text text-white font-bold lg:text-6xl text-4xl text-center'>My <span className='border-b-8 border-black'>Portfolio</span></h3>
       <div className='grid xl:grid-cols-2 sm:grid-cols-1 md:w-full'>
 
-        <div className='flex items-center justify-center flex-col mt-20 '>
+        <div className='flex items-center justify-center flex-col mt-20 border-2 py-5 mx-10 rounded-3xl'>
         <img className='lg:w-[500px] w-[200px]' src={restaurant} alt="" />
           <div className=' text-center flex items-center justify-center flex-col'>
             <h3 className=' text-2xl font-bold text-black my-5'>Restaurant Website</h3>
@@ -42,7 +42,7 @@ function Portfolio() {
           </div>
         </div>
 
-        <div className='flex items-center justify-center flex-col  mt-20'>
+        <div className='flex items-center justify-center flex-col  mt-20 border-2 py-5 mx-10 rounded-3xl'>
           <img className='lg:w-[500px] w-[200px]' src={education} alt="" />
           <div className=' text-center flex items-center justify-center flex-col'>
             <h3 className=' text-2xl font-bold text-black my-5'>Education Website</h3>
@@ -61,7 +61,7 @@ function Portfolio() {
           </div>
         </div>
 
-        <div className='flex items-center justify-center flex-col  mt-20'>
+        <div className='flex items-center justify-center flex-col  mt-20 border-2 py-5 mx-10 rounded-3xl'>
         <img className='lg:w-[500px] w-[200px]' src={cryptocurrency} alt="" />
           <div className=' text-center flex items-center justify-center flex-col'>
             <h3 className=' text-2xl font-bold text-black  my-5'>Cryptocurrency Website</h3>
@@ -83,7 +83,7 @@ function Portfolio() {
 
         
 
-        <div className='flex items-center justify-center flex-col mt-20'>
+        <div className='flex items-center justify-center flex-col mt-20 border-2 py-5 mx-10 rounded-3xl'>
         <img className='lg:w-[500px] w-[200px]' src={countrylist} alt="" />
           <div className=' text-center flex items-center justify-center flex-col'>
             <h3 className=' text-2xl font-bold text-black  my-5'>Country List</h3>

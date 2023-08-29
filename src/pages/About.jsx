@@ -9,7 +9,7 @@ function About() {
             programming. I am a responsible, hardworking person who
             likes to learn new things and tries to improve myself. Now, I'm 4th year Math and Computer Science student
             at Eskisehir Osmangazi University and making a preparation for math postgraduate.</p>
-      <p className='text-sm text-black opacity-70 lg:mx-20'> Last update: August 2023 </p>
+      <p className='text-sm text-black opacity-50 lg:mx-20'> Last update: August 2023 </p>
     </div>
   )
 }
