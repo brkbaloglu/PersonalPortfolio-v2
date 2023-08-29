@@ -6,7 +6,7 @@ function Header() {
   const [nav, setNav] = useState(false)
 
   return (
-    <div className='flex items-center justify-between px-20 py-5 border-b-2 border-black bg-white sticky top-0 z-50'>
+    <div className='flex items-center justify-between px-[100px] sm:px-20 md:px-[170px] py-5 border-b-2 border-black bg-white sticky top-0 z-50'>
       <img className='w-[60px]' src="https://i.hizliresim.com/mdv38dw.png" alt="" />        
       <div className='hidden lg:flex'>
       <Link className='cursor-pointer mx-2 hover:underline underline-offset-[10px] font-bold text-2xl text-white text' activeClass='active' smooth={true} spy={true} offset={-200} to="home">Home</Link>

@@ -24,13 +24,13 @@ function Portfolio() {
           <div className=' text-center flex items-center justify-center flex-col'>
             <h3 className=' text-2xl font-bold text-black my-5'>Restaurant Website</h3>
             <p className='w-[200px] md:w-full'>Responsive restaurant website using HTML, CSS, Javascript, PHP and MySQL</p>
-            <div className='flex items-center justify-between md:w-[500px] flex-col md:flex-row'>
-              <div className='flex items-center justify-center text-black w-[150px] md:p-2 '>
+            <div className='flex items-center justify-between md:w-[500px] flex-col-reverse md:flex-row mt-5'>
+              <div className='flex items-center justify-center text-black w-[150px] p-2 border-2 rounded-xl shadow-lg border-black'>
                 <p>Code here:</p>
                 <Link to="https://github.com/brkbaloglu/RestaurantWebsite-v2"><AiFillGithub size={30} className='ml-4'/></Link>
               </div>
 
-              <div className='flex items-center justify-center my-4 pt-2 '>
+              <div className='flex items-center justify-center my-4 '>
                 <AiFillHtml5 size={20} className='mx-2 bg-white text-orange-500'/>
                 <BiLogoCss3 size={20} className='mx-2 bg-white text-blue-500'/>
                 <DiJavascript1 size={20} className='mx-2 text-yellow-300 '/>
@@ -46,14 +46,13 @@ function Portfolio() {
           <img className='lg:w-[500px] w-[200px]' src={education} alt="" />
           <div className=' text-center flex items-center justify-center flex-col'>
             <h3 className=' text-2xl font-bold text-black my-5'>Education Website</h3>
-            <p className='w-[300px] md:w-full'>Responsive education website using React, TailwindCss</p>
-            <div className='flex items-center justify-between md:w-[500px] flex-col md:flex-row'>
-
-              <div className='flex items-center text-black w-[150px] p-2 '>
+            <p className='w-[300px] md:w-full'>Education website using React, TailwindCss</p>
+            <div className='flex items-center justify-between md:w-[500px] flex-col-reverse md:flex-row mt-5'>
+              <div className='flex items-center justify-center text-black w-[150px] p-2 border-2 rounded-xl shadow-lg border-black'>
                 <p>Code here:</p>
                 <Link to="https://github.com/brkbaloglu/EducationWebsite" ><AiFillGithub size={30} className='ml-4'/></Link>
               </div>
-              <div className='flex items-center justify-center my-4 pt-2 '>
+              <div className='flex items-center justify-center my-4 '>
                 <BiLogoReact size={20} className='mx-2 bg-white text-blue-300'/>
                 <BiLogoTailwindCss size={20} className='mx-2 bg-white text-blue-300'/>
               </div>
@@ -66,14 +65,14 @@ function Portfolio() {
         <img className='lg:w-[500px] w-[200px]' src={cryptocurrency} alt="" />
           <div className=' text-center flex items-center justify-center flex-col'>
             <h3 className=' text-2xl font-bold text-black  my-5'>Cryptocurrency Website</h3>
-            <p className='w-[300px] md:w-full'>Responsive Cryptocurrency website using React, TailwindCss</p>
-            <div className='flex items-center justify-between md:w-[500px] flex-col md:flex-row'>
-              <div className='flex items-center text-black w-[150px] p-2 '>
+            <p className='w-[300px] md:w-full'>Cryptocurrency website using React, TailwindCss</p>
+            <div className='flex items-center justify-between md:w-[500px] flex-col-reverse md:flex-row mt-5'>
+              <div className='flex items-center justify-center text-black w-[150px] p-2 border-2 rounded-xl shadow-lg border-black'>
                 <p>Code here:</p>
                 <Link to="https://github.com/brkbaloglu/CryptocurrencyWebsite" ><AiFillGithub size={30} className='ml-4'/></Link>
               </div>
               
-              <div className='flex items-center justify-center my-4 pt-2 '>
+              <div className='flex items-center justify-center my-4 '>
                 <BiLogoReact size={20} className='mx-2 bg-white text-blue-300'/>
                 <BiLogoTailwindCss size={20} className='mx-2 bg-white text-blue-300'/>
               </div>
@@ -89,13 +88,13 @@ function Portfolio() {
           <div className=' text-center flex items-center justify-center flex-col'>
             <h3 className=' text-2xl font-bold text-black  my-5'>Country List</h3>
             <p className='w-[300px] md:w-full'>Country List using React, TailwindCss</p>
-            <div className='flex items-center justify-between md:w-[500px] flex-col md:flex-row'>
-              <div className='flex items-center text-black w-[150px] p-2 '>
+            <div className='flex items-center justify-between md:w-[500px] flex-col-reverse md:flex-row mt-5'>
+              <div className='flex items-center justify-center text-black w-[150px] p-2 border-2 rounded-xl shadow-lg border-black'>
                 <p>Code here:</p>
                 <Link to="https://github.com/brkbaloglu/CountryList" ><AiFillGithub size={30} className='ml-4'/></Link>
               </div>
 
-              <div className='flex items-center justify-center my-4 pt-2 '>
+              <div className='flex items-center justify-center my-4 '>
                 <BiLogoReact size={20} className='mx-2 bg-white text-blue-300'/>
                 <BiLogoTailwindCss size={20} className='mx-2 bg-white text-blue-300'/>
               </div>
