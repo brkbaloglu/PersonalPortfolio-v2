@@ -9,6 +9,7 @@ import Contact from "./pages/Contact"
 import MessageButton from "./components/MessageButton";
 import Education from "./pages/Education";
 import Experience from "./pages/Experience";
+import Exam from "./pages/Exam";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Home/>
       <About/>
       <Education/>
+      <Exam/>
       <Experience/>
       <Portfolio/>
       <Contact/>
