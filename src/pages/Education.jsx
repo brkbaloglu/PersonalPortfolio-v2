@@ -23,7 +23,7 @@ const Education = () => {
           educationItems.map((item) => (
             <div key={item.id} className='flex items-center'>
               <MdSchool size={30} className='mr-4 hidden lg:flex'/>
-              <div className='my-4'>
+              <div className='my-3'>
                 <h5 className='font-bold md:text-2xl text-md'>{item.schoolName}</h5>
                 <p className='text-md text-black opacity-70'>{item.branch}</p>
                 <p className='text-sm text-black opacity-40'>({item.dateRange})</p>
